@@ -34,7 +34,7 @@ static NSString *deqIdentifier = @"CSCustomShareCtlCell";
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.automaticallyAdjustsScrollViewInsets = NO;             //取消自动偏移
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     [self.navigationController setNavigationBarHidden:YES animated:YES];
 }

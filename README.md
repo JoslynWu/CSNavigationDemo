@@ -20,6 +20,9 @@
 ![](/media/nav_custom_shadePull.png)
 
 
+## Demo中用到的CSObjCSugar.framework
+这是一个自己使用的工具库（整理自前辈的资源），能用的的上的，就随便拿去用吧。
+
 ## 可以通过clone下载Demo
 
     git clone --recursive https://github.com/chenaiwubu/CSNavigationDemo.git
