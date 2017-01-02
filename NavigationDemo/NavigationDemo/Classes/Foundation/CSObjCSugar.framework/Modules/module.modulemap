@@ -1,0 +1,6 @@
+framework module CSObjCSugar {
+  umbrella header "CSObjCSugar.h"
+
+  export *
+  module * { export * }
+}

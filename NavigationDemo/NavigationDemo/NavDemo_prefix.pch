@@ -1,0 +1,23 @@
+//
+//  NavDemo_prefix.pch
+//  CSObjcSugar
+//
+//  Created by Joslyn wu on 2016/12/28.
+//  Copyright © 2016年 joslyn. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <CSObjCSugar/CSObjCSugar.h>
+// Add header file below
+#import "CSTypeDefine.h"
+
+
+///////////////////////////////////////
+#ifdef DEBUG
+#define NSLog(fmt, ...) NSLog((@"%s [L %d] " fmt),__PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#endif
